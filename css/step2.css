@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+/* STEP 2 */
+/* The reason why it says step3 instead is because I messed up the page numbers.. */
+/* in herits 'Step' 'logo' 'header' 'login_footer' 'footerbar' */
+#step3_container {
+	padding: 2px;
+	width: auto;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+	color: #fff;
+}
+#step3_container_form {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 1000px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #7CCD7C;
+	border: #004F00 2px solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 30px 5px #999;
+	-moz-box-shadow: 0 0 30px 5px #999;
+	-webkit-box-shadow: 0 0 30px 5px #999;
+}
+.activation {
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: none;
+	border: #004f00 1px solid;
+	-webkit-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-moz-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-o-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-ms-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	transition: background-color .2s ease-in, box-shadow .3s ease-in;
+}
+.activation:focus {
+	box-shadow: 0 0 5px 1px #999;
+	-moz-box-shadow: 0 0 5px 1px #999;
+	-webkit-box-shadow: 0 0 5px 1px #999;
+}
+.activate_ok {
+	margin-left: 2px;
+	margin-top: 5px;
+	width: 150px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	cursor: pointer;
+	background: #659D32;
+	border: #397D02 1px solid;
+	color: #FFF;
+	outline: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	height: 30px;
+}
+.activate_ok:hover {
+	box-shadow: 0 0 1px 1px #999;
+	-moz-box-shadow: 0 0 1px 1px #999;
+	-webkit-box-shadow: 0 0 1px 1px #999;
+}
+.activate_ok:active {
+	opacity: .5;
+	box-shadow: 0 0 30px 2px #999;
+	-moz-box-shadow: 0 0 30px 2px #999;
+	-webkit-box-shadow: 0 0 30px 2px #999;
+}
+/*Step 2 Stop */

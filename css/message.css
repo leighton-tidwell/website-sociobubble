@@ -1,0 +1,43 @@
+/* CSS Document */
+.inbox_container{
+	float: left;
+	border: 1px solid #000;
+	margin-top: 100px;
+	border-radius: 5px;
+	width: 65%;
+	padding: 0px;
+	background: #004f00;
+	margin-left: 15%;
+}
+.inbox_nav{
+	width: 100%;
+	border-bottom: 1px solid #004f00;
+	padding: 0px;
+	text-align: center;
+}
+.inav{
+	display: block;
+	list-style-type: none;
+}
+.inav a{
+	text-decoration: none;
+	color: #004f00;
+}
+.inav a:hover{
+	background: #004f00;
+	color: #fff;
+	text-decoration: underline;
+}
+.inav li{
+	border-radius: 5px;
+	background: #fff;
+	margin-right: 25px;
+	display: inline;
+	width: 100px;
+	color: #004f00;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+}

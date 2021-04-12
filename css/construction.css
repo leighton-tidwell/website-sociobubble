@@ -1,0 +1,105 @@
+body{
+	margin: 0px;
+	background: #004f00;
+}
+.content{
+}
+.logo{
+	width: auto;
+	text-align: center;
+	height: 150px;
+}
+.logo img{
+	margin-top: 50px;
+}
+.box{
+	width: auto;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #fff;
+}
+.news{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #004f00;
+	height: 40px;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.maincontainer{
+	box-shadow: 0 0 15px 1px #000;
+	-moz-box-shadow: 0 0 15px 1px #000;
+	-webkit-box-shadow: 0 0 15px 1px #000;
+	padding: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	background: #7CCD7C;
+	margin-right: auto;
+	margin-left: auto;
+	width: 550px;
+	height: 150px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.toptext{
+	font-size: 25px;
+	color: #fff;
+}
+.input_field{
+	margin-top: 5px;
+	outline: none;
+	padding: 5px;
+	width: 512.5;
+	border: 1px solid #004f00;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-moz-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-o-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-ms-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	transition: background-color .2s ease-in, box-shadow .3s ease-in;
+}
+.footer{
+	margin-top: 5px;
+}
+.input_field:focus {
+	box-shadow: 0 0 15px 1px #999;
+	-moz-box-shadow: 0 0 15px 1px #999;
+	-webkit-box-shadow: 0 0 15px 1px #999;
+}
+.submit{
+	margin-left: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	background: #659D32;
+	border: #397D02 1px solid;
+	color: #FFF;
+	outline: none;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	height: 30px;
+	width: 75px;
+}
+.submit:hover {
+	box-shadow: 0 0 1px 1px #999;
+	-moz-box-shadow: 0 0 1px 1px #999;
+	-webkit-box-shadow: 0 0 1px 1px #999;
+}
+.submit:active {
+	opacity: .5;
+	box-shadow: 0 0 30px 2px #999;
+	-moz-box-shadow: 0 0 30px 2px #999;
+	-webkit-box-shadow: 0 0 30px 2px #999;
+}

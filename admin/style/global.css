@@ -1,0 +1,81 @@
+body{
+	margin: 0px;
+	background: #004f00;
+}
+.content{
+}
+.logo{
+	width: auto;
+	text-align: center;
+	height: 150px;
+}
+.logo img{
+	margin-top: 50px;
+}
+.logincontainer{
+	width: auto;
+	text-align: center;
+}
+.news{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #004f00;
+	height: 40px;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.loginform{
+	padding: 5px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	background: #7CCD7C;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.input_field{
+	outline: none;
+	padding: 5px;
+	width: 95%;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.submit{
+	margin-left: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	background: #659D32;
+	border: #397D02 1px solid;
+	color: #FFF;
+	outline: none;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	height: 30px;
+	width: 75px;
+}
+.submit:hover {
+	box-shadow: 0 0 1px 1px #999;
+	-moz-box-shadow: 0 0 1px 1px #999;
+	-webkit-box-shadow: 0 0 1px 1px #999;
+}
+.submit:active {
+	opacity: .5;
+	box-shadow: 0 0 30px 2px #999;
+	-moz-box-shadow: 0 0 30px 2px #999;
+	-webkit-box-shadow: 0 0 30px 2px #999;
+}

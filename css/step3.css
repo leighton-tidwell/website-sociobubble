@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/* it says step 2 , but was a typo */
+/* step3.php */
+/* Inherits: 'login_footer' 'footerbar' '.lobody' 'header' 'logo' */
+
+#step2_container {
+	color: #fff;
+	padding: 2px;
+	width: auto;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#step2_container a {
+	text-decoration: none;
+	font-color: #FFF;
+	font-weight: bold;
+}
+#step2_container a:visited {
+	text-decoration: none;
+	font-color: #FFF;
+	font-weight: bold;
+}
+#step2_container_form {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 900px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #7CCD7C;
+	border: #004F00 2px solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 30px 5px #999;
+	-moz-box-shadow: 0 0 30px 5px #999;
+	-webkit-box-shadow: 0 0 30px 5px #999;
+}
+.address {
+	margin-top: 10px;
+	width: 225px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	outline: none;
+	border: #004f00 1px solid;
+	-webkit-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-moz-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-o-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-ms-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	transition: background-color .2s ease-in, box-shadow .3s ease-in;
+}
+.address:focus {
+	box-shadow: 0 0 5px 1px #999;
+	-moz-box-shadow: 0 0 5px 1px #999;
+	-webkit-box-shadow: 0 0 5px 1px #999;
+}
+.profpic {
+	margin-top: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	outline: none;
+}
+#imagepreview {
+	margin-left: 20px;
+	height: auto;
+}
+.bio {
+	height: 50px;
+	width: 300px;
+	resize: none;
+	outline: none;
+	overflow: auto;
+	border: #004f00 1px solid;
+	margin-left: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.interest {
+	height: 50px;
+	width: 300px;
+	border: #004f00 1px solid;
+	resize: none;
+	outline: none;
+	overflow: auto;
+	margin-left: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.hometown {
+	margin-top: 10px;
+	width: 225px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	outline: none;
+	border: #004f00 1px solid;
+	-webkit-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-moz-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-o-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-ms-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	transition: background-color .2s ease-in, box-shadow .3s ease-in;
+}
+.hometown:focus {
+	box-shadow: 0 0 5px 1px #999;
+	-moz-box-shadow: 0 0 5px 1px #999;
+	-webkit-box-shadow: 0 0 5px 1px #999;
+}
+.occupation {
+	margin-top: 10px;
+	width: 225px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	outline: none;
+	border: #004f00 1px solid;
+	-webkit-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-moz-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-o-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-ms-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	transition: background-color .2s ease-in, box-shadow .3s ease-in;
+}
+.occupation:focus {
+	box-shadow: 0 0 5px 1px #999;
+	-moz-box-shadow: 0 0 5px 1px #999;
+	-webkit-box-shadow: 0 0 5px 1px #999;
+}
+.website {
+	margin-top: 10px;
+	width: 225px;
+	border: #004f00 1px solid;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	outline: none;
+	-webkit-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-moz-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-o-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	-ms-transition: background-color .2s ease-in, box-shadow .3s ease-in;
+	transition: background-color .2s ease-in, box-shadow .3s ease-in;
+}
+.website:focus {
+	box-shadow: 0 0 5px 1px #999;
+	-moz-box-shadow: 0 0 5px 1px #999;
+	-webkit-box-shadow: 0 0 5px 1px #999;
+}
+.submit {
+	margin-left: 50px;
+	margin-top: 400px;
+	width: 100px;
+	cursor: pointer;
+	background: #659D32;
+	border: #397D02 1px solid;
+	color: #FFF;
+	outline: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	height: 30px;
+}
+.submit:hover {
+	box-shadow: 0 0 1px 1px #999;
+	-moz-box-shadow: 0 0 1px 1px #999;
+	-webkit-box-shadow: 0 0 1px 1px #999;
+}
+.submit:active {
+	opacity: .5;
+	box-shadow: 0 0 30px 2px #999;
+	-moz-box-shadow: 0 0 30px 2px #999;
+	-webkit-box-shadow: 0 0 30px 2px #999;
+}
+.location{
+	float: left;
+	border: 1px solid #004f00;
+	width: 350px;
+	height: 400px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-left: none;
+}
+.personal{
+	float: right;
+	border: 1px solid #004f00;
+	width: 350px;
+	height: 400px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border-right: none;
+}
